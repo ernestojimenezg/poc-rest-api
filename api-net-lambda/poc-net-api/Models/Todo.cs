@@ -9,7 +9,7 @@ namespace POC.NET.API.Models
             Id = Guid.NewGuid();
             Title = title;
             Description = description;
-            CreatedDate = new DateTime();
+            CreatedDate = DateTime.Now;
             Status = status;
         }
 
